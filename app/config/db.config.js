@@ -1,7 +1,7 @@
 //app/config/db.config.js
 module.exports = {
-    HOST     : "",
-    USER     : "",
-    PASSWORD : "",
-    DATABASE : ""
+    HOST     : "xxx",
+    USER     : "xxx",
+    PASSWORD : "xxx",
+    DATABASE : "xxx"
 };
