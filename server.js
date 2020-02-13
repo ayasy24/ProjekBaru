@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, "./public")));
 app.get("/", (req,res) => {
     res.json({message : "Selamat datang pada Kuliah pemrograman Perangkat bergerak"});
 });
-require("./app/routes/book.routes")(app);
+//require("./app/routes/book.routes")(app);
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log('Server is Running on port ${PORT}.');
